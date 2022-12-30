@@ -1,9 +1,12 @@
-# texlive-ja-devcontainer-template
+# Devcontainer for LaTeX
 
-VS Code Remote Developmentの機能を用いて、LaTeX環境を容易に構築するサンプルコードです。
+VS Code Dev Containersの機能を用いて、LaTeX環境を容易に構築する
+レジュメのテンプレートと卒論のテンプレートがあります
 
-[![](https://images.microbadger.com/badges/image/korosuke613/ubuntu-texlive-ja-devcontainer.svg)](https://microbadger.com/images/korosuke613/ubuntu-texlive-ja-devcontainer "Get your own image badge on microbadger.com")
-
+参考記事
+https://korosuke613.hatenablog.com/entry/2019/06/24/171246
+参考リポジトリ
+https://github.com/kajiLabTeam/Dev-Container-Tex-Template
 
 Dockerイメージは、[ubuntu-texlive-ja](https://hub.docker.com/r/korosuke613/ubuntu-texlive-ja)を利用しています。
 
@@ -11,18 +14,13 @@ Dockerイメージは、[ubuntu-texlive-ja](https://hub.docker.com/r/korosuke613
 
 ## setup
 
-1. `git clone https://github.com/korosuke613/texlive-ja-devcontainer-template.git`
-2. VS Codeで`texlive-ja-devcontainer-template`を開く。
-3. 拡張機能[Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)を追加する。
-4. 左下の`><`アイコンを押して、`Rebuild Container`を実行する。
-5. 待つ。
-6. ワークスペースが開いたら、terminalを開き、`latexmk sample.tex`を実行する。
-7. 上手くコンパイルできたらsetup完了！
+1. `git clone git@github.com:kajiLabTeam/Dev-Container-Tex-Template.git`
+2. VS Codeで`git@github.com:kajiLabTeam/Dev-Container-Tex-Template.git`を開く。
+3. 拡張機能[Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)を追加する。
+4. 左下の`><`アイコンを押して、`Open in Cotainer`を実行する。
+5. コンテナ起動まで待つ
+6. サイドバーのTexアイコンを押してBuild Latex Projectを押すとpdfが出力される。Texアイコンを出すにはTexファイル開く必要があるかもしれない
 
-## build
 
-```bash
-latexmk sample.tex
-```
 
-`sample.pdf`という実行ファイルができているはず。
+
