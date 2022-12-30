@@ -1,0 +1,8 @@
+*.aux
+*.dvi
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.log
+*.Identifier
+.DS_Store

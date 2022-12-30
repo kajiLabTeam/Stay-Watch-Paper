@@ -1,0 +1,85 @@
+{
+  //ここから下がtexの設定
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "%DOC%"
+      ]
+    },
+
+    // 日本語論文用
+    {
+      "name": "ptex2pdf",
+      "command": "ptex2pdf",
+      "args": [
+        "-interaction=nonstopmode",
+        "-l",
+        "-ot",
+        "-kanji=utf8 -synctex=1",
+        // "-file-line-error",
+        "%DOC%"
+      ]
+    },
+
+    {
+      "name": "ptex2pdf (uplatex)",
+      "command": "ptex2pdf",
+      "args": [
+        "-interaction=nonstopmode",
+        "-l",
+        "-u",
+        "-ot",
+        "-kanji=utf8 -synctex=1",
+        "%DOC%"
+      ]
+    },
+
+    // 英語論文用
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+
+    // bibファイル用(英語)
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": ["%DOCFILE%"]
+    },
+
+    // bibファイル用(日本語)
+    {
+      "name": "pbibtex",
+      "command": "pbibtex",
+      "args": ["-kanji=utf8", "%DOCFILE%"]
+    }
+  ],
+
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "ptex2pdf",
+      "tools": ["ptex2pdf"]
+    },
+    {
+      "name": "ptex2pdf (bib)",
+      "tools": ["ptex2pdf", "pbibtex", "ptex2pdf"]
+    }
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  // 使用パッケージのコマンドや環境の補完を有効にする
+  "latex-workshop.intellisense.package.enabled": true,
+  // 数式のプレビュー
+  "latex-workshop.hover.preview.enabled": true
+}
