@@ -5,8 +5,9 @@ name: Slack Notification Demo
 env:
   SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
   SLACK_USERNAME: GitHub
-  SLACK_ICON: https://avatars3.githubusercontent.com/u/28966981?s=200&v=4
-  
+  ##iconにgithubのアイコンを設定
+  SLACK_ICON_EMOJI: ":github:"
+
 jobs:
   slackNotification:
     name: Slack Notification
