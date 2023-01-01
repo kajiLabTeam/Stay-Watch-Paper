@@ -3,7 +3,8 @@
     "dockerComposeFile": "docker-compose.yml",
     "extensions": [
         "formulahendry.terminal",
-        "james-yu.latex-workshop"
+        "james-yu.latex-workshop",
+        "GitHub.copilot"
     ],
     "service": "ubuntu-texlive-ja",
     "workspaceFolder": "/workdir",
