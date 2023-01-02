@@ -15,8 +15,8 @@ Dockerイメージは、[ubuntu-texlive-ja](https://hub.docker.com/r/korosuke613
 
 ## setup
 
-1. `git clone git@github.com:kajiLabTeam/Dev-Container-Tex-Template.git`
-2. VS Codeで`git@github.com:kajiLabTeam/Dev-Container-Tex-Template.git`を開く。
+1. `git clone git@github.com:kajiLabTeam/Stay-Watch-Paper.git`
+2. VS Codeで`git@github.com:kajiLabTeam/Stay-Watch-Paper.git`を開く。
 3. 拡張機能[Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)を追加する。
 4. 左下の`><`アイコンを押して、`Open in Cotainer`を実行する。
 5. コンテナ起動まで待つ
