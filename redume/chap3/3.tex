@@ -1,12 +1,6 @@
 \subsection{スマホアプリによるビーコンと実デバイスによるビーコンの併用}
 
 
-
-
-
-
-
-
 実デバイスによるビーコンはメンバの利便性が低く可用性に問題がある．
 可用性とは，メンバの在室情報が長期にわたり継続的に記録される能力と定義する．
 実デバイスによるビーコンを利用する場合，高い可用性を維持するにはバッテリ交換に配慮する必要がある．
@@ -44,9 +38,34 @@ BLEビーコンの代替としてスマートフォンを利用可能にする�
 これらの問題は実デバイスによるビーコンとスマホビーコンのハイブリッド化によって解決できる．
 スマホビーコンで利用するUUIDを実デバイスによるビーコンで利用するUUIDと同じ値に設定し同じメンバの在室情報を記録している．
 この方法は表1に示す通りスマホビーコンか実デバイスによるビーコンの少なくとも片方を携帯していれば記録できるため継続的にデータを記録する観点から見ても有用である．
+% \begin{table}[tbh]
+%   \centering
+%   \caption{各ビーコンのみ対応時とハイブリッド対応時の比較}
+%   \includegraphics[width=9cm]{image/table.png}
+%   \label{multipleBPM}
+% \end{table}
 \begin{table}[tbh]
-  \centering
-  \includegraphics[width=9cm]{image/table.png}
-  \caption{各ビーコンのみ対応時とハイブリッド対応時の比較}
-  \label{multipleBPM}
+    \caption{各ビーコンのみ対応時とハイブリッド対応時の比較}
+    \scalebox{0.55}{
+        \begin{tabular}{|c|c|c|c|c|}
+                \hline
+                 & 長期メンバ & 短期･一時的 & スマホ不携帯 & ビーコン不携帯 \\ \hline
+                実デバイスビーコンのみ & \begin{tabular}[c]{@{}c@{}}△\\ バッテリ交換の手間\end{tabular} & ○ & ☓ & ○ \\ \hline
+                スマホビーコンのみ & ○ & \begin{tabular}[c]{@{}c@{}}△\\ インストールの手間\end{tabular} & ○ & ☓ \\ \hline
+                ハイブリッド対応 & ○ & ○ & ○ & ○ \\ \hline
+                \end{tabular}
+    }
+    \label{multipleBPM}
 \end{table}
+
+% \begin{table}[tbh]
+%     \scalebox{0.25}[0.25]{
+%     \begin{tabular}{|c|c|c|c|c|}
+%     \hline
+%      & 長期メンバ & 短期･一時的 & スマホ不携帯 & ビーコン不携帯 \\ \hline
+%     実デバイスのみ & \begin{tabular}[c]{@{}c@{}}△\\ バッテリ交換\end{tabular} & ○ & ☓ & ○ \\ \hline
+%     スマホのみ & ○ & \begin{tabular}[c]{@{}c@{}}△\\ インストール\end{tabular} & ○ & ☓ \\ \hline
+%     ハイブリッド対応 & ○ & ○ & ○ & ○ \\ \hline
+%     \end{tabular}
+%     }
+%     \end{table}
