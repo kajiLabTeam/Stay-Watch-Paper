@@ -37,11 +37,26 @@ BLEビーコンの代替としてスマートフォンを利用可能にする�
 スマホビーコンで利用するUUIDを実デバイスによるビーコンで利用するUUIDと同じ値に設定し同じメンバの在室情報を記録している．
 この方法は表1に示す通りスマホビーコンか実デバイスによるビーコンの少なくとも片方を携帯していれば記録できるため継続的にデータを記録する観点から見ても有用である．
 
-\begin{table}[tbh]
-  \centering
+% \begin{table}[tbh]
+%   \centering
+%   \caption{各ビーコンのみとハイブリッド対応時の比較}
+%   \includegraphics[width=9cm]{image/table.png}
+%   \label{multipleBPM}
+% \end{table}
+
+
+\begin{table}[]
   \caption{各ビーコンのみとハイブリッド対応時の比較}
-  \includegraphics[width=9cm]{image/table.png}
-  \label{multipleBPM}
+  \scalebox{0.63}[0.63]{
+    \begin{tabular}{|c|c|c|c|c|}
+      \backslashbox{Title}{Pattern} & a                               & b
+      \toprule
+                                    & \multicolumn{1}{l|}{長期メンバ} & \multicolumn{1}{l|}{短期・一部的} & \multicolumn{1}{l|}{ビーコン不携帯} & \multicolumn{1}{l|}{スマホ不携帯} \\ \midrule
+      実デバイスビーコンのみ        & △                               & 〇                                & ×                                   & 〇                                \\ \midrule
+      スマホビーコンのみ            & 〇                              & △                                 & 〇                                  & ×                                 \\ \midrule
+      ハイブリット対応              & 〇                              & 〇                                & 〇                                  & 〇                                \\ \bottomrule
+    \end{tabular}
+  }
 \end{table}
 
 
