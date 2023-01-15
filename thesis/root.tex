@@ -15,6 +15,7 @@
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{ulinej}
+\usepackage{url}
 \pagestyle{headings}
 
 % カウンタセット
@@ -41,7 +42,7 @@
 \evensidemargin=7.5mm
 
 % 部分コンパイル用
-%\includeonly{title,chap1,chap2,chap3,chap4,chap5,thanks,reference}
+% \includeonly{title,chap1,chap2,chap3,chap4,chap5,thanks,reference}
 \begin{document}
 
 \include{title}
@@ -50,28 +51,29 @@
 \tableofcontents
 
 % 本文
-Neubigら\cite{ogane}は...
 
 \input{chap1/index.tex}
 
 \input{chap2/index.tex}
 
-\input{chap3/index.tex}
+% \input{chap3/index.tex}
 
-\input{chap4/index.tex}
+% \input{chap4/index.tex}
 
-\input{chap5/index.tex}
+% \input{chap5/index.tex}
 
 \include{thanks}
 
-\include{reference}
+
+\bibliography{thesis} %hoge.bibから拡張子を外した名前
+\bibliographystyle{junsrt} %参考文献出力スタイル
+
+% \include{reference}
 
 % これ以降，付録となる
 \appendix
 
 \include{cover}
-
-
 
 
 \end{document}

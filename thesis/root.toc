@@ -5,19 +5,5 @@
 \contentsline {chapter}{\numberline {第2章}関連研究}{7}
 \contentsline {section}{\numberline {2.1}屋内位置推定における在室者の検出方法}{7}
 \contentsline {section}{\numberline {2.2}在室者の検出方法に関する研究}{7}
-\contentsline {section}{\numberline {2.3}コミュニケーション促進に関する研究}{8}
-\contentsline {chapter}{\numberline {第3章}在室管理プラットフォーム\\「滞在ウォッチ」}{9}
-\contentsline {section}{\numberline {3.1}「滞在ウォッチ」のシステム構成}{9}
-\contentsline {chapter}{\numberline {第4章}グラマーモデルデータベースシステムでの適用例}{15}
-\contentsline {section}{\numberline {4.1}例題}{15}
-\contentsline {section}{\numberline {4.2}実行結果}{15}
-\contentsline {subsection}{\numberline {4.2.1}データの登録}{15}
-\contentsline {subsection}{\numberline {4.2.2}データの検索}{15}
-\contentsline {subsection}{\numberline {4.2.3}導出データを条件とした検索}{15}
-\contentsline {subsection}{\numberline {4.2.4}データの削除}{15}
-\contentsline {chapter}{\numberline {第5章}おわりに}{17}
-\contentsline {section}{\numberline {5.1}まとめ}{17}
-\contentsline {section}{\numberline {5.2}今後の課題}{17}
-\contentsline {chapter}{\numberline {} 謝辞の例}{19}
-\contentsline {chapter}{\numberline {} 参考文献の書き方例}{20}
-\contentsline {chapter}{\numberline {付 録A }論文表紙}{23}
+\contentsline {chapter}{\numberline {} 謝辞の例}{9}
+\contentsline {chapter}{\numberline {付 録A }論文表紙}{13}
