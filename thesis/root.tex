@@ -2,7 +2,7 @@
 %  愛知工業大学経営情報科学部情報科学科
 %    LaTeXテンプレート(2015.12.22)
 %
-\documentclass{jbook}
+\documentclass[openany]{jbook}
 % 使いたい人は使う
 \usepackage{personal}
 % 図挿入用
@@ -16,6 +16,8 @@
 \usepackage{amsfonts}
 \usepackage{ulinej}
 \usepackage{url}
+\usepackage{mathtools}
+\usepackage{here} % 強制的に図を好きな位置に配置するためのパッケージ
 \pagestyle{headings}
 
 % カウンタセット
@@ -62,7 +64,7 @@
 
 % \input{chap5/index.tex}
 
-\include{thanks}
+\input{thanks}
 
 
 \bibliography{thesis} %hoge.bibから拡張子を外した名前

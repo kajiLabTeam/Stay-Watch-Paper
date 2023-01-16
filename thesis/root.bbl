@@ -1,17 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{privacy}
-舩冨卓哉, 川西康友, 美濃導彦, 森村吉貴, 満上育久.
-\newblock (os招待講演)プライバシを考慮した防犯カメラ映像処理.
-\newblock 人工知能学会全国大会論文集, Vol. JSAI2013, pp. 3L4OS06c1--3L4OS06c1,
-  2013.
-
-\bibitem{smartphone}
-嶋川司, 三木光範, 中原蒼太, 間博人.
-\newblock スマートフォンと ble ビーコンを用いた出席管理手法の提案.
-\newblock 同志社大学ハリス理化学研究報告= The Harris science review of Doshisha
-  University, Vol.~58, No.~2, pp. 88--95, 2017.
-
 \bibitem{beacon}
 オカベマーキングシステム.
 \newblock Bleビーコンによる自動認識.
@@ -29,6 +17,12 @@
 \newblock Ble を用いた位置情報共有システムの開発.
 \newblock マルチメディア, 分散協調とモバイルシンポジウム 2016 論文集, Vol.
   2016, pp. 516--521, 2016.
+
+\bibitem{smartphone}
+嶋川司, 三木光範, 中原蒼太, 間博人.
+\newblock スマートフォンと ble ビーコンを用いた出席管理手法の提案.
+\newblock 同志社大学ハリス理化学研究報告= The Harris science review of Doshisha
+  University, Vol.~58, No.~2, pp. 88--95, 2017.
 
 \bibitem{nfcandroid}
 市村匠, 鎌田真.
