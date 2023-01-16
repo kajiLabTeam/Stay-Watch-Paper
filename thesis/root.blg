@@ -6,45 +6,48 @@ A level-1 auxiliary file: thanks.aux
 The style file: junsrt.bst
 A level-1 auxiliary file: cover.aux
 Database file #1: thesis.bib
-You've used 19 entries,
+Warning--I didn't find a database entry for "zaiseki"
+Warning--there's a number but no volume in laboratory
+You've used 34 entries,
             2270 wiz_defined-function locations,
-            656 strings with 7132 characters,
-and the built_in function-call counts, 6942 in all, are:
-= -- 565
-> -- 211
-< -- 34
-+ -- 83
-- -- 64
-* -- 344
-:= -- 834
-add.period$ -- 59
-call.type$ -- 19
-change.case$ -- 19
+            734 strings with 8920 characters,
+and the built_in function-call counts, 12503 in all, are:
+= -- 1029
+> -- 367
+< -- 63
++ -- 145
+- -- 111
+* -- 619
+:= -- 1494
+add.period$ -- 104
+call.type$ -- 34
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 419
-empty$ -- 643
-format.name$ -- 128
-if$ -- 1721
+cite$ -- 35
+duplicate$ -- 763
+empty$ -- 1150
+format.name$ -- 222
+if$ -- 3103
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 15
-newline$ -- 98
-num.names$ -- 19
-pop$ -- 141
+int.to.str$ -- 34
+missing$ -- 29
+newline$ -- 173
+num.names$ -- 34
+pop$ -- 242
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 347
+skip$ -- 635
 stack$ -- 0
-substring$ -- 434
-swap$ -- 150
-text.length$ -- 34
+substring$ -- 805
+swap$ -- 274
+text.length$ -- 63
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 63
-width$ -- 21
-write$ -- 209
-is.kanji.str$ -- 229
+warning$ -- 1
+while$ -- 117
+width$ -- 36
+write$ -- 374
+is.kanji.str$ -- 412
+(There were 2 warnings)

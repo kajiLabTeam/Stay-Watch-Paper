@@ -108,10 +108,95 @@ AMANO.
 
 \bibitem{hukyu}
 総務省.
-\newblock 平成29年版 情報通信白書 |
-  数字で見たスマホの爆発的普及（5年間の量的拡大.
+\newblock 平成29年版 情報通信白書
+  数字で見たスマホの爆発的普及（5年間の量的拡大).
 \newblock
   {\url{https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h29/html/nc111110.html}},
   2023年1月30日.
+
+\bibitem{smartphoneAndRoom}
+小野澤清人, 渡邉圭輔, 諏訪敬祐.
+\newblock スマートフォンを用いた在室管理システムと学習状況管理システム.
+\newblock 東京都市大学横浜キャンパス情報メディアジャーナル= Journal of
+  information studies, Vol.~13, pp. 6--15, 2012.
+
+\bibitem{laboratory}
+田中健, 諏訪敬祐.
+\newblock 研究室在室管理システム自動化における ibeacon の応用.
+\newblock 東京都市大学横浜キャンパス情報メディアジャーナル= Journal of
+  information studies, No.~16, pp. 33--39, 2015.
+
+\bibitem{prep}
+田中優斗, 福島拓, 吉野孝ほか.
+\newblock Docoitter: 未来の在室情報を予報する在室管理システム.
+\newblock 情報処理学会論文誌, Vol.~54, No.~9, pp. 2265--2275, 2013.
+
+\bibitem{picture}
+中田豊久ほか.
+\newblock 画像による行き先掲示板システム.
+\newblock  ワークショップ 2009 (GN Workshop 2009) 論文集, 第2009巻, pp. 75--80,
+  2009.
+
+\bibitem{iptelephone}
+櫻田武嗣, 萩原洋一ほか.
+\newblock Ip 電話端末を利用した在席表示システムの構築と運用.
+\newblock 情報処理学会論文誌コンシューマ・デバイス \& システム (CDS), Vol.~2,
+  No.~2, pp. 1--9, 2012.
+
+\bibitem{staycomment}
+田中優斗, 福島拓, 吉野孝ほか.
+\newblock 在室管理システムにおけるコメント提示機能の効果.
+\newblock 第 76 回全国大会講演論文集, Vol. 2014, No.~1, pp. 259--260, 2014.
+
+\bibitem{kasika}
+進藤綺乃, 吉野孝ほか.
+\newblock 研究室における活動状況を可視化する在室管理システムの開発.
+\newblock 2018 年度 情報処理学会関西支部 支部大会 講演論文集, Vol. 2018, ,
+  2018.
+
+\bibitem{hati}
+山中崇規, 吉野孝ほか.
+\newblock おしゃべり鉢べえ: 他者の存在を感じさせる鉢植え型会話ボットシステム.
+\newblock 研究報告グループウェアとネットワークサービス (GN), Vol. 2010, No.~14,
+  pp. 1--6, 2010.
+
+\bibitem{tikachat}
+softbank.
+\newblock ちかゲーム／ちかチャット.
+\newblock {\url{ https://www.softbank.jp/mobile/service/chika/}},
+  2023年1月30日.
+
+\bibitem{compresence}
+通山和裕, 西尾信彦.
+\newblock
+  公共空間における周囲の第三者とのコミュニケーション支援のための自己プレゼンス.
+\newblock {\em DICOMO2007}, pp. 1305--1313, 2007.
+
+\bibitem{siruetto}
+中森玲奈, 青木貴司, 椎尾一郎ほか.
+\newblock ご近所知るえっと―身近な他人との緩やかなコミュニケーション支援―.
+\newblock WISS2010 論文集, pp. 35--40, 2010.
+
+\bibitem{komyusoku}
+仙道航, 瀬川典久, 澤本潤, 杉野栄二.
+\newblock 公共空間におけるコミュニケーション促進システムの構築.
+\newblock 電子情報通信学会技術研究報告; 信学技報, Vol. 112, No. 466, pp.
+  215--220, 2013.
+
+\bibitem{travelingcafe}
+中野利彦, 亀和田慧太, 杉戸準, 永岡良章, 小倉加奈代, 西本一志.
+\newblock Traveling cafe:
+  分散型オフィス環境におけるコミュニケーション促進支援システム.
+\newblock インタラクション, pp. 227--228, 2006.
+
+\bibitem{meetingpot}
+椎尾一郎, 美馬のゆり.
+\newblock Meeting pot: アンビエント表示によるコミュニケーション支援.
+\newblock インタラクション, Vol. 2001, pp. 163--164, 2001.
+
+\bibitem{photochat}
+角康之, 伊藤惇, 西田豊明ほか.
+\newblock Photochat: 写真と書き込みの共有によるコミュニケーション支援システム.
+\newblock 情報処理学会論文誌, Vol.~49, No.~6, pp. 1993--2003, 2008.
 
 \end{thebibliography}
