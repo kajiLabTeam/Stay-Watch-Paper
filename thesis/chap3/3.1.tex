@@ -1,16 +1,10 @@
 
 
 \section{「滞在ウォッチ」のシステム構成}\label{3.1}
-
-
-
 % 本研究のシステム概要を図\ref{StayWatchOverview}に示す．
-「滞在ウォッチ」は利用者がビーコンを携帯し，部屋ごとに設置された受信機によりビーコンを検出する手法で，在室者管理を自動に行う．
-部屋利用者には一人1つビーコンを携帯してもらう．
-サーバには部屋利用者の名前とビーコンのIDを登録する．
-ビーコンは周囲に数秒に1回電波を発信する．
-受信機がビーコンの電波を受信する間隔は3分である．
-受信機が検出したビーコンのIDと電波強度はサーバに送信され，日時と在室した部屋名が記録される．
+滞在ウォッチは，ビーコンを持ち歩き在室情報を記録するメンバ，メンバ管理，メンバへのビーコン配布，利用者の登録を行う管理者，現在状況や履歴を閲覧したりAPIを通して利用する利用者（メンバや管理者も利用者になりうる），システムを開発する開発者がおり，メンバがビーコンを携帯し，部屋ごとに設置された受信機によりビーコンを検出する手法で，在室者管理を自動に行う．
+メンバには一人1つビーコンを携帯してもらう．サーバには部屋利用者の名前とビーコンのIDを登録する．ビーコンは周囲に数秒に1回電波を発信する．
+受信機がビーコンの電波を受信する間隔は3分である．受信機が検出したビーコンのIDと電波強度はサーバに送信され，日時と在室した部屋名が記録される．
 記録した在室者情報はWeb APIを通して利用可能であり，勤怠管理システムや来訪促進システムといった様々な応用を想定している．
 
 \begin{figure}[h]
@@ -36,58 +30,58 @@ FCS1301ではボタンを押すとペアリング，長押しするとスリー�
 1つの部屋に1つずつ受信機を設置する．
 サーバには，Google Cloud Platform\cite{platform}を利用している．
 
-% \begin{figure}[H]
-%   \begin{center}
-%     \includegraphics[width=150mm]{image/BeaconType.png}
-%     \caption{ビーコンの種類}
-%     \label{fig:beacons}
-%   \end{center}
-% \end{figure}
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=150mm]{image/BeaconType.png}
+    \caption{ビーコンの種類}
+    \label{fig:beacons}
+  \end{center}
+\end{figure}
 
-% \begin{table}[H]
-%   \begin{center}
-%     \caption{ビーコンの比較}
-%     \label{tb:beacons}
-%     \begin{tabular}{|l|c|c|c|} \hline
-%       ビーコン名 & サイズ                            & 電池交換 & ボタン \\ \hline \hline
-%       FCS1301    & 縦46.0 mm× 横24.5 mm× 厚さ3.5 mm  & ○        & ○      \\
-%       MAMORIO    & 縦35.5 mm× 横19.0 mm× 厚さ3.4 mm  & ×        & ×      \\
-%       WICED      & 縦60.0 mm× 横37.0 mm× 厚さ10.0 mm & ○        & ○      \\
-%       estimote   & 縦55.0 mm× 横38.0 mm× 厚さ15.0 mm & ×        & ×      \\\hline
-%     \end{tabular}
-%   \end{center}
-% \end{table}
+\begin{table}[H]
+  \begin{center}
+    \caption{ビーコンの比較}
+    \label{tb:beacons}
+    \begin{tabular}{|l|c|c|c|} \hline
+      ビーコン名    & サイズ                           & 電池交換 & ボタン \\ \hline \hline
+      FCS1301  & 縦46.0 mm× 横24.5 mm× 厚さ3.5 mm  & ○    & ○   \\
+      MAMORIO  & 縦35.5 mm× 横19.0 mm× 厚さ3.4 mm  & ×    & ×   \\
+      WICED    & 縦60.0 mm× 横37.0 mm× 厚さ10.0 mm & ○    & ○   \\
+      estimote & 縦55.0 mm× 横38.0 mm× 厚さ15.0 mm & ×    & ×   \\\hline
+    \end{tabular}
+  \end{center}
+\end{table}
 
-% \begin{figure}[H]
-%   \begin{center}
-%     \includegraphics[width=150mm]{image/beaconforpass.png}
-%     \caption{パスケースに取り付けたビーコン}
-%     \label{fig:beaconforpass}
-%   \end{center}
-% \end{figure}
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=150mm]{image/beaconforpass.png}
+    \caption{パスケースに取り付けたビーコン}
+    \label{fig:beaconforpass}
+  \end{center}
+\end{figure}
 
-% \begin{figure}[H]
-%   \begin{center}
-%     \includegraphics[width=150mm]{image/batchange.png}
-%     \caption{ビーコンの電池交換}
-%     \label{fig:batchange}
-%   \end{center}
-% \end{figure}
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=150mm]{image/batchange.png}
+    \caption{ビーコンの電池交換}
+    \label{fig:batchange}
+  \end{center}
+\end{figure}
 
-% \begin{figure}[H]
-%   \begin{center}
-%     \includegraphics[width=150mm]{image/RasPi.png}
-%     \caption{実際に使用しているビーコンを検知する受信機}
-%     \label{fig:raspi}
-%   \end{center}
-% \end{figure}
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=150mm]{image/RasPi.png}
+    \caption{実際に使用しているビーコンを検知する受信機}
+    \label{fig:raspi}
+  \end{center}
+\end{figure}
 
-% 個人を特定する在室者の検出手法には，個人と在室者情報を紐付けする必要がある．
-% ビーコンを用いた検出手法ではビーコンのIDと利用者の名前をサーバのデータベースに登録している．
-% 登録には図\ref{fig:ent}のウェブサイトを用いて行う．
-% グループ分けとして研究室やチームの属性を追加している．
-% これは可視化において個人の識別を容易にし，来訪促進システムでは連帯感や競争心を刺激でき，ゲーミフィケーション\cite{gamification}を取り入れる上で有用な情報だと考えている．
-% UUID，major，minorはビーコン固有の識別子であり，先述のビーコンのIDに該当する．
+個人を特定する在室者の検出手法には，個人と在室者情報を紐付けする必要がある．
+ビーコンを用いた検出手法ではビーコンのIDと利用者の名前をサーバのデータベースに登録している．
+登録には図\ref{fig:ent}のウェブサイトを用いて行う．
+グループ分けとして研究室やチームの属性を追加している．
+これは可視化において個人の識別を容易にし，来訪促進システムでは連帯感や競争心を刺激でき，ゲーミフィケーション\cite{gamification}を取り入れる上で有用な情報だと考えている．
+UUID，major，minorはビーコン固有の識別子であり，先述のビーコンのIDに該当する．
 
 \begin{figure}[H]
   \begin{center}
