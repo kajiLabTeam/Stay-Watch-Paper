@@ -1,0 +1,52 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: root.aux
+A level-1 auxiliary file: title.aux
+The style file: junsrt.bst
+A level-1 auxiliary file: cover.aux
+Database file #1: thesis.bib
+Warning--I didn't find a database entry for "zaiseki"
+Warning--there's a number but no volume in laboratory
+You've used 32 entries,
+            2270 wiz_defined-function locations,
+            723 strings with 8617 characters,
+and the built_in function-call counts, 11676 in all, are:
+= -- 955
+> -- 347
+< -- 61
++ -- 137
+- -- 105
+* -- 583
+:= -- 1403
+add.period$ -- 98
+call.type$ -- 32
+change.case$ -- 32
+chr.to.int$ -- 0
+cite$ -- 33
+duplicate$ -- 715
+empty$ -- 1072
+format.name$ -- 210
+if$ -- 2893
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 28
+newline$ -- 163
+num.names$ -- 32
+pop$ -- 225
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 586
+stack$ -- 0
+substring$ -- 729
+swap$ -- 251
+text.length$ -- 61
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 113
+width$ -- 34
+write$ -- 353
+is.kanji.str$ -- 391
+(There were 2 warnings)
