@@ -60,18 +60,31 @@ BLEビーコンの代替としてスマートフォンを利用可能にする�
 
 
 
-それに伴い,管理者が実デバイスによるビーコンで行っていた登録作業をより簡略化した.
-従来では管理者が新しいメンバが増えるたびに登録作業をおこない,メールアドレス,名前,UUIDなどを登録し,
+ビーコンのアプリケーション化に伴い,管理者が実デバイスによるビーコンで行っていた登録作業をより簡略化した.
+従来では管理者が新しいメンバが増えるたびに登録作業をおこない,Googleアカウント,名前,UUIDなどを登録し,
 それに合わせて実デバイスによるビーコンへ割り当てられたUUIDを登録する作業を行っていた.
 しかし先述の通り,Firabaseによるログインによって,スマホビーコン上で利用するUUIDをメンバに紐づいているメールアドレスでログインすることで,利用できるようにした.
+% 手順は滞在WatchのWebページと同様である
+\begin{figure}[tbh]
+  \centering
+  \includegraphics[width=9cm]{image/AppSignIn.png}
+  \caption{アプリケーションのログイン画面}
+  \label{multipleBPM}
+\end{figure}
+
+
+図　　　　X　　　　に示すサインインで管理者が登録したGoogleアカウントと一致する場合にログインを行う.その後APIからメンバの情報を受け取り,UUIDをアプリ内部に設定する.
+以降はログイン時に受け取ったUUIDを用いたビーコン動作を行う.
+
 
 % 画面の変更の写真を入れる
- \begin{figure}[tbh]
-   \centering
-   \includegraphics[width=9cm]{image/AppBeforeAfter.png}
-   \caption{メンバ向けアプリケーションにおける操作の簡略化}
-   \label{multipleBPM}
- \end{figure}
+\begin{figure}[tbh]
+  \centering
+  \includegraphics[width=9cm]{image/AppBeforeAfter.png}
+  \caption{メンバ向けアプリケーションにおける操作の簡略化}
+  \label{multipleBPM}
+\end{figure}
+
 また図　　X　　　研究初期はユーザから利用しているUUID,major,minorを編集できる仕様にしていたが,複雑な操作がユーザの利便性の向上につながらないと考え取り消した.
 % あと,実デバイスによるビーコンでは管理者がユーザ登録を行ったあと紐づけたビーコンに一台ずつ対応したUUIDを割り当てていたが,スマホビーコンならばウェブ上に登録されたユーザに紐づいたUUIDを持ってくる
 % 4.2章が完成したときに整合性を取ろう!!!
