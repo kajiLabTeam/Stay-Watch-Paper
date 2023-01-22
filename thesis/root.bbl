@@ -22,9 +22,10 @@
 市村匠, 鎌田真.
 \newblock Nfc (near field communication) を用いた android
   スマートフォンによる授業出席管理システムの開発.
-\newblock  日本知能情報ファジィ学会 ファジィ システム シンポジウム 講演論文集
-  第 28 回ファジィシステムシンポジウム, pp. 1167--1170.
-  日本知能情報ファジィ学会, 2012.
+\newblock
+  日本知能情報ファジィ学会 ファジィ システム シンポジウム 講演論文集 第 28
+  回ファジィシステムシンポジウム, pp. 1167--1170. 日本知能情報ファジィ学会,
+  2012.
 
 \bibitem{android}
 Shota Noguchi, Michitoshi Niibori, Erjing Zhou, and Masaru Kamada.
@@ -96,8 +97,8 @@ AMANO.
 
 \bibitem{hukyu}
 総務省.
-\newblock 平成29年版 情報通信白書
-  数字で見たスマホの爆発的普及（5年間の量的拡大).
+\newblock
+  平成29年版 情報通信白書 数字で見たスマホの爆発的普及（5年間の量的拡大).
 \newblock
   {\url{https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h29/html/nc111110.html}},
   2023年1月30日.
@@ -186,5 +187,22 @@ softbank.
 角康之, 伊藤惇, 西田豊明ほか.
 \newblock Photochat: 写真と書き込みの共有によるコミュニケーション支援システム.
 \newblock 情報処理学会論文誌, Vol.~49, No.~6, pp. 1993--2003, 2008.
+
+\bibitem{fcs1301}
+株式会社フォーカスシステムズ.
+\newblock 薄型小型ビーコン　fcs1301.
+\newblock
+  {\url{https://www.focus-s.com/focus-s/products/iot/blebeacon/fcs1301/}},
+  2023年1月30日.
+
+\bibitem{raspi}
+raspberrypi.
+\newblock Rasberyy pi.
+\newblock {\url{https://www.raspberrypi.org/}}, 2023年1月30日.
+
+\bibitem{gcp}
+google.
+\newblock Google cloud.
+\newblock {\url{https://cloud.google.com/}}, 2023年1月30日.
 
 \end{thebibliography}
