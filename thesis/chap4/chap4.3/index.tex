@@ -1,4 +1,4 @@
-\section*{4.3 スマホアプリによるビーコンと実デバイス}
+\section{スマホアプリによるビーコンと実デバイス}\label{4.3}
 我々の利用するシステム「滞在ウォッチ」は実デバイスによるビーコンを利用した,ここではビーコンのアプリケーション化及びそれらのハイブリッド活用について記す.
 
 「滞在ウォッチ」は,先述の通りBLEビーコンを利用している.
@@ -27,7 +27,7 @@ UUID（Universally Unique Identifier）とは,オブジェクトを一位に識�
 
 
 
-\subsection*{4.3.1 BLEビーコンのアプリケーション化}
+\subsection{ BLEビーコンのアプリケーション化}
 上記の問題のアプローチとしてメンバの利便性を向上させるため,スマホアプリによるビーコン動作を行った.
 
 BLEビーコンの代替としてスマートフォンを利用可能にするとバッテリ交換の手間が削減される.
@@ -77,7 +77,7 @@ BLEビーコンの代替としてスマートフォンを利用可能にする�
 % 4.2章が完成したときに整合性を取ろう!!!
 
 
-\subsection*{4.3.2 スマホビーコンと実デバイスによるビーコンのハイブリッド活用}
+\subsection{スマホビーコンと実デバイスによるビーコンのハイブリッド活用}
 スマホビーコンのみを利用する場合，様々な状況下でメンバの継続した利用が困難であるため，実デバイスによる
 ビーコンと併用できるシステムとした．
 長期にわたり継続的に利用するメンバにとっては，実デバイスによるビーコンは先述の通りバッテリ交換の手間がある．
@@ -99,15 +99,15 @@ BLEビーコンの代替としてスマートフォンを利用可能にする�
 %   \label{multipleBPM}
 % \end{table}
 
-\begin{table}[tbh]
-  \caption{各ビーコンのみ対応時とハイブリッド対応時の比較}
-  \begin{tabular}{|c|c|c|c|c|}
-    \hline
-                              & 長期メンバ                & 短期･一時的               & スマホ不携帯 & ビーコン不携帯 \\ \hline
-    \begin{tabular}[c]{@{}c@{}}実デバイス\\ ビーコンのみ\end{tabular} & \begin{tabular}[c]{@{}c@{}}△\\ バッテリ交換の手間\end{tabular} & ○                         & X            & ○              \\ \hline
-    \begin{tabular}[c]{@{}c@{}}スマホ\\ ビーコンのみ\end{tabular} & ○                         & \begin{tabular}[c]{@{}c@{}}△\\ インストールの手間\end{tabular} & ○            & X              \\ \hline
-    \begin{tabular}[c]{@{}c@{}}ハイブリッド\\ 対応\end{tabular} & ○                         & ○                         & ○            & ○              \\ \hline
-  \end{tabular}
-  \label{multipleBPM}
-\end{table}
+% \begin{table}[tbh]
+%   \caption{各ビーコンのみ対応時とハイブリッド対応時の比較}
+%   \begin{tabular}{|c|c|c|c|c|}
+%     \hline
+%                               & 長期メンバ                & 短期･一時的               & スマホ不携帯 & ビーコン不携帯 \\ \hline
+%     \begin{tabular}[c]{@{}c@{}}実デバイス\\ ビーコンのみ\end{tabular} & \begin{tabular}[c]{@{}c@{}}△\\ バッテリ交換の手間\end{tabular} & ○                         & X            & ○              \\ \hline
+%     \begin{tabular}[c]{@{}c@{}}スマホ\\ ビーコンのみ\end{tabular} & ○                         & \begin{tabular}[c]{@{}c@{}}△\\ インストールの手間\end{tabular} & ○            & X              \\ \hline
+%     \begin{tabular}[c]{@{}c@{}}ハイブリッド\\ 対応\end{tabular} & ○                         & ○                         & ○            & ○              \\ \hline
+%   \end{tabular}
+%   \label{multipleBPM}
+% \end{table}
 
