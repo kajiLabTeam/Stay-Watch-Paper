@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {4.3}スマホアプリによるビーコンと実デバイス}{23}{}%
 \contentsline {subsection}{\numberline {4.3.1} BLEビーコンのアプリケーション化}{24}{}%
 \contentsline {subsection}{\numberline {4.3.2}スマホビーコンと実デバイスによるビーコンのハイブリッド活用}{25}{}%
-\contentsline {chapter}{\numberline {第5章}おわりに}{26}{}%
-\contentsline {section}{\numberline {5.1}まとめ}{26}{}%
-\contentsline {section}{\numberline {5.2}今後の課題}{26}{}%
-\contentsline {chapter}{\numberline {} 謝辞の例}{28}{}%
+\contentsline {chapter}{\numberline {第5章}おわりに}{28}{}%
+\contentsline {section}{\numberline {5.1}まとめ}{28}{}%
+\contentsline {section}{\numberline {5.2}今後の課題}{28}{}%
+\contentsline {chapter}{\numberline {} 謝辞の例}{30}{}%
