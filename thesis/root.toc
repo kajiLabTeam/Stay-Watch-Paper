@@ -13,4 +13,7 @@
 \contentsline {section}{\numberline {3.3}部屋利用者の入退室時刻の評価実験}{12}
 \contentsline {section}{\numberline {3.4}在室者情報を用いた応用システムについて}{13}
 \contentsline {chapter}{\numberline {第4章}4.3 独立したコミュニティにおける滞在ウォッチの安定運用のためのシステム拡張}{15}
-\contentsline {chapter}{\numberline {} 謝辞の例}{20}
+\contentsline {chapter}{\numberline {第5章}おわりに}{21}
+\contentsline {section}{\numberline {5.1}まとめ}{21}
+\contentsline {section}{\numberline {5.2}今後の課題}{21}
+\contentsline {chapter}{\numberline {} 謝辞の例}{22}
