@@ -14,7 +14,7 @@
 \end{figure}
 
 本手法に関連するビーコン，受信機，サーバを示す．
-メンバが携帯するビーコンには，長期的な運用を考慮し電池交換が可能かつ小型なFCS1301\cite{fcs1301}を利用している．
+メンバが携帯するビーコンには，長期的な運用を考慮しバッテリ交換が可能かつ小型なFCS1301\cite{fcs1301}を利用している．
 ビーコンは図\ref{fig:beacons}のように様々な大きさや形のものがある．
 複数のビーコンの比較を表\ref{tb:beacons}に示す．
 ボタンは定期的な電波発信に加えて押した時にも電波発信できるため，点検時に利用できる．
@@ -22,8 +22,8 @@ FCS1301の用途は，財布やパスケースなどの貴重品に付ける紛�
 実際にパスケースに取り付けた様子を図\ref{fig:beaconforpass}に示す．
 財布やパスケースに取り付けたり入れても気にならないサイズだとわかる．
 そのため，メンバが携帯するのに適している．
-また電池交換の際の様子を図\ref{fig:batchange}に示す．
-特殊な器具などを使う必要がなく，簡単に電池交換ができる．
+またバッテリ交換の際の様子を図\ref{fig:batchange}に示す．
+特殊な器具などを使う必要がなく，簡単にバッテリ交換ができる．
 FCS1301ではボタンを押すとペアリング，長押しするとスリープモードへ移行し，保管の間省電力モードになる．
 ビーコンの電波送信の間隔はFCS1301の規格で最大の10秒ごとに設定している．
 部屋ごと設置する受信機には図\ref{fig:raspi}の低価格なRaspberry Pi\cite{raspi}を利用している．
@@ -43,11 +43,11 @@ FCS1301ではボタンを押すとペアリング，長押しするとスリー�
     \caption{ビーコンの比較}
     \label{tb:beacons}
     \begin{tabular}{|l|c|c|c|} \hline
-      ビーコン名    & サイズ                           & 電池交換 & ボタン \\ \hline \hline
-      FCS1301  & 縦46.0 mm× 横24.5 mm× 厚さ3.5 mm  & ○    & ○   \\
-      MAMORIO  & 縦35.5 mm× 横19.0 mm× 厚さ3.4 mm  & ×    & ×   \\
-      WICED    & 縦60.0 mm× 横37.0 mm× 厚さ10.0 mm & ○    & ○   \\
-      estimote & 縦55.0 mm× 横38.0 mm× 厚さ15.0 mm & ×    & ×   \\\hline
+      ビーコン名    & サイズ                           & バッテリ交換 & ボタン \\ \hline \hline
+      FCS1301  & 縦46.0 mm× 横24.5 mm× 厚さ3.5 mm  & ○      & ○   \\
+      MAMORIO  & 縦35.5 mm× 横19.0 mm× 厚さ3.4 mm  & ×      & ×   \\
+      WICED    & 縦60.0 mm× 横37.0 mm× 厚さ10.0 mm & ○      & ○   \\
+      estimote & 縦55.0 mm× 横38.0 mm× 厚さ15.0 mm & ×      & ×   \\\hline
     \end{tabular}
   \end{center}
 \end{table}
@@ -63,7 +63,7 @@ FCS1301ではボタンを押すとペアリング，長押しするとスリー�
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=150mm]{image/batchange.png}
-    \caption{ビーコンの電池交換}
+    \caption{ビーコンのバッテリ交換}
     \label{fig:batchange}
   \end{center}
 \end{figure}
