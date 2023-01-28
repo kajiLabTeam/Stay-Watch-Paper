@@ -3,10 +3,9 @@
 \contentsline {section}{\numberline {1.2}滞在ウォッチの安定運用のためのシステム拡張}{4}
 \contentsline {section}{\numberline {1.3}論文構成}{4}
 \contentsline {chapter}{\numberline {第2章}関連研究}{5}
-\contentsline {section}{\numberline {2.1}屋内位置推定に関する研究}{5}
-\contentsline {section}{\numberline {2.2}在室者検出に関する研究}{5}
-\contentsline {section}{\numberline {2.3}在室者状況の提示方法に関する研究}{6}
-\contentsline {section}{\numberline {2.4}コミュニケーション促進に関する研究}{6}
+\contentsline {section}{\numberline {2.1}在室者検出に関する研究}{5}
+\contentsline {section}{\numberline {2.2}在室者状況の提示方法に関する研究}{5}
+\contentsline {section}{\numberline {2.3}コミュニケーション促進に関する研究}{6}
 \contentsline {chapter}{\numberline {第3章}在室管理プラットフォーム\\「滞在ウォッチ」}{7}
 \contentsline {section}{\numberline {3.1}「滞在ウォッチ」のシステム構成}{7}
 \contentsline {section}{\numberline {3.2}在室者情報を用いた応用システムについて}{10}
