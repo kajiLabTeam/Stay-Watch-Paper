@@ -2,24 +2,24 @@
 \contentsline {section}{\numberline {1.1}背景}{3}{}%
 \contentsline {section}{\numberline {1.2}滞在ウォッチの安定運用のためのシステム拡張}{4}{}%
 \contentsline {section}{\numberline {1.3}論文構成}{4}{}%
-\contentsline {chapter}{\numberline {第2章}関連研究}{5}{}%
-\contentsline {section}{\numberline {2.1}屋内位置推定における在室者の検出方法に関する研究}{5}{}%
-\contentsline {section}{\numberline {2.2}在室者の検出方法に関する研究}{5}{}%
-\contentsline {section}{\numberline {2.3}在室者状況の提示方法に関する研究}{6}{}%
-\contentsline {section}{\numberline {2.4}コミュニケーション促進に関する研究}{6}{}%
-\contentsline {chapter}{\numberline {第3章}在室管理プラットフォーム\\「滞在ウォッチ」}{7}{}%
-\contentsline {section}{\numberline {3.1}「滞在ウォッチ」のシステム構成}{7}{}%
-\contentsline {section}{\numberline {3.2}在室者情報の可視化}{11}{}%
-\contentsline {section}{\numberline {3.3}在室者情報を用いた応用システムについて}{15}{}%
-\contentsline {chapter}{\numberline {第4章}独立したコミュニティにおける滞在ウォッチの安定運用のためのシステム拡張}{18}{}%
-\contentsline {section}{\numberline {4.1}安定運用に向けた既存システムの再構築}{18}{}%
-\contentsline {subsection}{\numberline {4.1.1}サーバ側システムの再設計と再構築}{18}{}%
-\contentsline {subsection}{\numberline {4.1.2}クライアントサイドの実装}{20}{}%
+\contentsline {chapter}{\numberline {第2章}関連研究}{6}{}%
+\contentsline {section}{\numberline {2.1}屋内位置推定における在室者の検出方法に関する研究}{6}{}%
+\contentsline {section}{\numberline {2.2}在室者の検出方法に関する研究}{6}{}%
+\contentsline {section}{\numberline {2.3}在室者状況の提示方法に関する研究}{7}{}%
+\contentsline {section}{\numberline {2.4}コミュニケーション促進に関する研究}{7}{}%
+\contentsline {chapter}{\numberline {第3章}在室管理プラットフォーム\\「滞在ウォッチ」}{8}{}%
+\contentsline {section}{\numberline {3.1}「滞在ウォッチ」のシステム構成}{8}{}%
+\contentsline {section}{\numberline {3.2}在室者情報の可視化}{12}{}%
+\contentsline {section}{\numberline {3.3}在室者情報を用いた応用システムについて}{16}{}%
+\contentsline {chapter}{\numberline {第4章}独立したコミュニティにおける滞在ウォッチの安定運用のためのシステム拡張}{19}{}%
+\contentsline {section}{\numberline {4.1}安定運用に向けた既存システムの再構築}{19}{}%
+\contentsline {subsection}{\numberline {4.1.1}サーバ側システムの再設計と再構築}{19}{}%
+\contentsline {subsection}{\numberline {4.1.2}クライアントサイドの実装}{21}{}%
 \contentsline {section}{\numberline {4.2}利用者の管理とアクセス制御システムの整備}{21}{}%
-\contentsline {section}{\numberline {4.3}スマホアプリによるビーコンと実デバイス}{24}{}%
-\contentsline {subsection}{\numberline {4.3.1} BLEビーコンのアプリケーション化}{24}{}%
-\contentsline {subsection}{\numberline {4.3.2}スマホビーコンと実デバイスによるビーコンのハイブリッド活用}{27}{}%
-\contentsline {chapter}{\numberline {第5章}おわりに}{29}{}%
-\contentsline {section}{\numberline {5.1}まとめ}{29}{}%
-\contentsline {section}{\numberline {5.2}今後の課題}{29}{}%
-\contentsline {chapter}{\numberline {} 謝辞の例}{31}{}%
+\contentsline {section}{\numberline {4.3}スマホアプリによるビーコンと実デバイス}{25}{}%
+\contentsline {subsection}{\numberline {4.3.1} BLEビーコンのアプリケーション化}{25}{}%
+\contentsline {subsection}{\numberline {4.3.2}スマホビーコンと実デバイスによるビーコンのハイブリッド活用}{28}{}%
+\contentsline {chapter}{\numberline {第5章}おわりに}{30}{}%
+\contentsline {section}{\numberline {5.1}まとめ}{30}{}%
+\contentsline {section}{\numberline {5.2}今後の課題}{30}{}%
+\contentsline {chapter}{\numberline {} 謝辞の例}{32}{}%
