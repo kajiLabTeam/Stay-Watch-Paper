@@ -5,46 +5,46 @@ A level-1 auxiliary file: title.aux
 The style file: junsrt.bst
 Database file #1: thesis.bib
 Warning--there's a number but no volume in laboratory
-You've used 38 entries,
+You've used 37 entries,
             2270 wiz_defined-function locations,
-            744 strings with 9112 characters,
-and the built_in function-call counts, 12714 in all, are:
-= -- 1021
-> -- 371
-< -- 61
-+ -- 149
-- -- 111
-* -- 589
-:= -- 1529
-add.period$ -- 116
-call.type$ -- 38
-change.case$ -- 38
+            743 strings with 9105 characters,
+and the built_in function-call counts, 12377 in all, are:
+= -- 994
+> -- 361
+< -- 59
++ -- 145
+- -- 108
+* -- 572
+:= -- 1487
+add.period$ -- 113
+call.type$ -- 37
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 781
-empty$ -- 1216
-format.name$ -- 222
-if$ -- 3151
+cite$ -- 38
+duplicate$ -- 760
+empty$ -- 1185
+format.name$ -- 216
+if$ -- 3068
 int.to.chr$ -- 0
-int.to.str$ -- 38
-missing$ -- 28
-newline$ -- 193
-num.names$ -- 38
-pop$ -- 289
+int.to.str$ -- 37
+missing$ -- 27
+newline$ -- 188
+num.names$ -- 37
+pop$ -- 283
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 642
+skip$ -- 626
 stack$ -- 0
-substring$ -- 729
-swap$ -- 257
-text.length$ -- 61
+substring$ -- 710
+swap$ -- 251
+text.length$ -- 59
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 119
-width$ -- 40
-write$ -- 413
-is.kanji.str$ -- 433
+while$ -- 115
+width$ -- 39
+write$ -- 402
+is.kanji.str$ -- 421
 (There was 1 warning)
