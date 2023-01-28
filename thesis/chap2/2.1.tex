@@ -1,22 +1,7 @@
-\begin{table}[htb]
-  \begin{center}
-    \caption{測位技術の比較}
-    \label{tb:positioning}
-    \begin{tabular}{|l|c|c|c|} \hline
-      測位技術    & 屋外測位 & 屋内測位 & 消費電力 \\ \hline \hline
-      GPS     & ○    & ×    & 高い   \\
-      携帯電話基地局 & △    & ×    & 普通   \\
-      Wi-Fi   & △    & ○    & 普通   \\
-      BLE     & ×    & ◎    & 低い   \\\hline
-    \end{tabular}
-  \end{center}
-\end{table}
 
 
 
-
-
- \section{屋内位置推定における在室者の検出方法に関する研究}\label{2.1}
+\section{屋内位置推定に関する研究}\label{2.1}
 % 以前から在室管理は自動化されれば便利なシステムになると言われていた\cite{twitter}．
 部屋における屋内位置推定にはいくつか在室者の検出方法があり，用途によって人の在否のみと個人を特定する方法がある．
 滞在ウォッチでは，利用者が目的とする人の居場所を把握できるように，個人を特定する方法に着目する．
@@ -25,3 +10,22 @@
 志毛らのBLEを用いた位置情報共有システムの開発\cite{communication}では，
 表\ref{tb:positioning}の無線通信による測位技術の比較を行った．
 消費電力が低く，屋内位置推定に向いている BLEを用いた検出方法が有効だと考えた.
+
+
+\begin{table}[htb]
+  \begin{center}
+    \caption{測位技術の比較}
+    \label{tb:positioning}
+    \begin{tabular}{|l|c|c|c|} \hline
+      測位技術       & 屋外測位 & 屋内測位 & 消費電力 \\ \hline \hline
+      GPS            & ○        & ×        & 高い     \\
+      携帯電話基地局 & △        & ×        & 普通     \\
+      Wi-Fi          & △        & ○        & 普通     \\
+      BLE            & ×        & ◎        & 低い     \\\hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+
+
+

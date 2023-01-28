@@ -39,15 +39,15 @@ emailプロパティは管理者が利用者のemailを登録すると保存さ�
   \scalebox{1.4}{
     \begin{tabular}{|l|l|l|}
       \hline
-      プロパティ      & 型        & 説明                  \\ \hline
-      id         & bigint   & 主キー                 \\ \hline
-      name       & longtext & ユーザの名前              \\ \hline
-      uuid       & longtext & ユーザのビーコンのUUID       \\ \hline
-      email      & longtext & ユーザのemail           \\ \hline
+      プロパティ & 型       & 説明                            \\ \hline
+      id         & bigint   & 主キー                          \\ \hline
+      name       & longtext & 名前                            \\ \hline
+      uuid       & longtext & 使用者のビーコンのUUID          \\ \hline
+      email      & longtext & email                           \\ \hline
       role\_id   & bigint   & 外部キー(rolesテーブルの主キー) \\ \hline
-      create\_at & datetime & ユーザ情報の作成日時          \\ \hline
-      update\_at & datetime & ユーザ情報の更新日時          \\ \hline
-      delete\_at & datetime & ユーザ情報の削除日時          \\ \hline
+      create\_at & datetime & 作成日時                        \\ \hline
+      update\_at & datetime & 更新日時                        \\ \hline
+      delete\_at & datetime & 削除日時                        \\ \hline
     \end{tabular}}  \label{table:users}
 \end{table}
 
@@ -58,9 +58,9 @@ emailプロパティは管理者が利用者のemailを登録すると保存さ�
   \scalebox{1.4}{
     \begin{tabular}{|l|l|l|}
       \hline
-      プロパティ      & 型        & 説明         \\ \hline
-      id         & longtext & 主キー        \\ \hline
-      name       & longtext & 役割の名前      \\ \hline
+      プロパティ & 型       & 説明                 \\ \hline
+      id         & longtext & 主キー               \\ \hline
+      name       & longtext & 役割の名前           \\ \hline
       create\_at & datetime & ユーザ情報の作成日時 \\ \hline
       update\_at & datetime & ユーザ情報の更新日時 \\ \hline
       delete\_at & datetime & ユーザ情報の削除日時 \\ \hline
