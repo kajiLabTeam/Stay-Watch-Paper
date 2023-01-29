@@ -5,7 +5,7 @@
 \subsection{サーバ側システムの再設計と再構築}\label{4.1.1}
 サーバ側には独立したバックエンドシステムとの連携が容易かつWebアプリケーションのより高い可用性とスケーラビリティが実現できるREST APIを採用した．
 REST APIは，多種多様なクライアントからアクセスができるため，様々なデバイスやプラットフォームからアクセスできる．
-これにより，より広いユーザー層からアクセスが期待できる．
+これにより，より広いユーザ層からアクセスが期待できる．
 
 
 滞在ウォッチのサーバ側システムはPythonで構築されていたが，高負荷環境でパフォーマンスに影響を与える可能性があったのと動的型付け言語の開発，保守のしづらさを解消するため，Go言語を使用してシステムの再構築を行った．
@@ -17,7 +17,8 @@ Go言語は高いパフォーマンスを持つ．C言語のような低レベ�
 同等のパフォーマンスを持ちながら，高水準の言語のような簡単な構文を持っているのに加え，並列処理を容易に実現できるため，
 高負荷な環境でのWeb APIの開発にも適している．
 そのため，WebAPIの要求に適合する十分なパフォーマンスを提供できる．
-また構造体とインターフェース型を備えており，WebAPIの開発に必要な柔軟性を持っている．これにより，開発者は，WebAPIを実装するために適した方法を選択できる．さらに，標準パッケージによるHTTPサーバのサポートを持つため，Web APIの開発に必要な機能を簡単に実装できる．
+また構造体とインターフェース型を備えており，WebAPIの開発に必要な柔軟性を持っている．これにより，開発者は，WebAPIを実装するために適した方法を選択できる．
+さらに，標準パッケージによるHTTPサーバのサポートを持つため，Web APIの開発に必要な機能を簡単に実装できる．
 
 サーバで使用するデータベースは無料で利用でき，高いスケーラビリティを持つため，WebAPIの要求に対応可能なMySQLを採用した．MySQLは多くのプラットフォームでサポートされており，多くの言語に対応しており，開発者にとって選択肢が広がる．またMySQLは優れたセキュリティ機能を持つため，WebAPIのセキュリティの確保ができる．
 
@@ -29,7 +30,7 @@ GoのORMライブラリとして他にXormなどの選択肢もあったが複�
 
 後述\ref{4.2}項で述べる利用者の管理とアクセス制御システムを実装するために，データベースにUserテーブルとRolesテーブルを新しく作成した．表\ref{table:users}と\ref{table:roles}にそれらのスキーマを示す．
 既存のシステムでは存在していなかったemailプロパティとrole\_idプロパティを追加した．
-emailプロパティは管理者が利用者のemailを登録すると保存される.\ref{4.3}で解説するがこのemail存在するかで利用者の認証を行う．role\_idはrolesテーブルの主キーである．rolesテーブルには管理者と一般利用者の2つのロールが存在する．役割の名前の変更や役割名が追加された場合にも対応できるようにrolesテーブルを作成している．
+emailプロパティは管理者が利用者のemailを登録すると保存される．\ref{4.3}で解説するがこのemail存在するかで利用者の認証を行う．role\_idはrolesテーブルの主キーである．rolesテーブルには管理者と一般利用者の2つのロールが存在する．役割の名前の変更や役割名が追加された場合にも対応できるようにrolesテーブルを作成している．
 
 
 
@@ -39,15 +40,15 @@ emailプロパティは管理者が利用者のemailを登録すると保存さ�
   \scalebox{1.4}{
     \begin{tabular}{|l|l|l|}
       \hline
-      プロパティ & 型       & 説明                            \\ \hline
-      id         & bigint   & 主キー                          \\ \hline
-      name       & longtext & 名前                            \\ \hline
-      uuid       & longtext & 使用者のビーコンのUUID          \\ \hline
-      email      & longtext & email                           \\ \hline
+      プロパティ      & 型        & 説明                  \\ \hline
+      id         & bigint   & 主キー                 \\ \hline
+      name       & longtext & 名前                  \\ \hline
+      uuid       & longtext & 使用者のビーコンのUUID       \\ \hline
+      email      & longtext & email               \\ \hline
       role\_id   & bigint   & 外部キー(rolesテーブルの主キー) \\ \hline
-      create\_at & datetime & 作成日時                        \\ \hline
-      update\_at & datetime & 更新日時                        \\ \hline
-      delete\_at & datetime & 削除日時                        \\ \hline
+      create\_at & datetime & 作成日時                \\ \hline
+      update\_at & datetime & 更新日時                \\ \hline
+      delete\_at & datetime & 削除日時                \\ \hline
     \end{tabular}}  \label{table:users}
 \end{table}
 
@@ -58,9 +59,9 @@ emailプロパティは管理者が利用者のemailを登録すると保存さ�
   \scalebox{1.4}{
     \begin{tabular}{|l|l|l|}
       \hline
-      プロパティ & 型       & 説明                 \\ \hline
-      id         & longtext & 主キー               \\ \hline
-      name       & longtext & 役割の名前           \\ \hline
+      プロパティ      & 型        & 説明         \\ \hline
+      id         & longtext & 主キー        \\ \hline
+      name       & longtext & 役割の名前      \\ \hline
       create\_at & datetime & ユーザ情報の作成日時 \\ \hline
       update\_at & datetime & ユーザ情報の更新日時 \\ \hline
       delete\_at & datetime & ユーザ情報の削除日時 \\ \hline
