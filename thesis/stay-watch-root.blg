@@ -1,0 +1,51 @@
+This is pBibTeX, Version 0.99d-j0.34 (utf8.euc) (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: stay-watch-root.aux
+A level-1 auxiliary file: title.aux
+The style file: junsrt.bst
+Database file #1: thesis.bib
+Warning--empty journal in magnetic1
+Warning--there's a number but no volume in laboratory
+You've used 35 entries,
+            2270 wiz_defined-function locations,
+            735 strings with 8989 characters,
+and the built_in function-call counts, 12002 in all, are:
+= -- 965
+> -- 356
+< -- 58
++ -- 142
+- -- 107
+* -- 574
+:= -- 1445
+add.period$ -- 109
+call.type$ -- 35
+change.case$ -- 35
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 741
+empty$ -- 1138
+format.name$ -- 214
+if$ -- 2973
+int.to.chr$ -- 0
+int.to.str$ -- 35
+missing$ -- 28
+newline$ -- 178
+num.names$ -- 35
+pop$ -- 266
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 595
+stack$ -- 0
+substring$ -- 694
+swap$ -- 246
+text.length$ -- 58
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 110
+width$ -- 37
+write$ -- 380
+is.kanji.str$ -- 408
+(There were 2 warnings)
