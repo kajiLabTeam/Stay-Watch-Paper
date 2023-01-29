@@ -1,47 +1,39 @@
 \begin{thebibliography}{10}
 
-\bibitem{communication}
-志毛勇一, 神屋郁子, 下川俊彦ほか.
-\newblock Ble を用いた位置情報共有システムの開発.
-\newblock マルチメディア, 分散協調とモバイルシンポジウム 2016 論文集, Vol.
-  2016, pp. 516--521, 2016.
+\bibitem{wifi0}
+齋藤隼人, 大村廉ほか.
+\newblock Wifi
+  屋内位置推定におけるモンテカルロ手法を用いた端末側測位と環境側測位の統合.
+\newblock 第 79 回全国大会講演論文集, Vol. 2017, No.~1, pp. 321--322, 2017.
 
-\bibitem{smartphone}
-嶋川司, 三木光範, 中原蒼太, 間博人.
-\newblock スマートフォンと ble ビーコンを用いた出席管理手法の提案.
-\newblock 同志社大学ハリス理化学研究報告= The Harris science review of Doshisha
-  University, Vol.~58, No.~2, pp. 88--95, 2017.
+\bibitem{wifi1}
+林遼平, 中川裕人, 泉貴志, 阿部伸也, 山内弘貴.
+\newblock Wi-fi rtt を用いた機械学習による屋内位置推定手法の検討.
+\newblock 電子情報通信学会技術研究報告; 信学技報, Vol. 121, No. 126, pp.
+  81--85, 2021.
 
-\bibitem{nfcandroid}
-市村匠, 鎌田真.
-\newblock Nfc (near field communication) を用いた android
-  スマートフォンによる授業出席管理システムの開発.
-\newblock  日本知能情報ファジィ学会 ファジィ システム シンポジウム 講演論文集
-  第 28 回ファジィシステムシンポジウム, pp. 1167--1170.
-  日本知能情報ファジィ学会, 2012.
+\bibitem{camera0}
+中澤陽平, 牧野秀夫, 前田義信.
+\newblock 屋内測位のための rgb-ir
+  カメラによる不可視二次元コード検出に関する基礎検討.
+\newblock In {\em IEICE Conferences Archives}. The Institute of Electronics,
+  Information and Communication Engineers, 2021.
 
-\bibitem{android}
-Shota Noguchi, Michitoshi Niibori, Erjing Zhou, and Masaru Kamada.
-\newblock Student attendance management system with bluetooth low energy beacon
-  and android devices.
-\newblock In {\em 2015 18th International Conference on Network-Based
-  Information Systems}, pp. 710--713. IEEE, 2015.
+\bibitem{camera1}
+中澤陽平, 牧野秀夫, 前田義信.
+\newblock 屋内測位のためのグローバルシャッター型カメラによる可視光信号受信.
+\newblock In {\em IEICE Conferences Archives}. The Institute of Electronics,
+  Information and Communication Engineers, 2020.
 
-\bibitem{smartbase}
-Riya Lodha, Suruchi Gupta, Harshil Jain, and Harish Narula.
-\newblock Bluetooth smart based attendance management system.
-\newblock {\em Procedia Computer Science}, Vol.~45, pp. 524--527, 2015.
+\bibitem{magnetic0}
+松倉健悟, 廣津登志夫ほか.
+\newblock 屋内位置推定のための磁気指紋の安定性解析.
+\newblock 第 77 回全国大会講演論文集, Vol. 2015, No.~1, pp. 115--116, 2015.
 
-\bibitem{garake}
-檀裕也ほか.
-\newblock 出席管理システム amuse の設計と開発.
-\newblock 松山大学論集, Vol.~21, No.~2, pp. 95--115, 2009.
-
-\bibitem{amano}
-AMANO.
-\newblock 勤怠管理システム ラインナップ.
-\newblock {\url{ https://www.tis.amano.co.jp/product/line-up/kintai/}},
-  2023年1月30日.
+\bibitem{magnetic1}
+松林勝.
+\newblock 屋内人流把握のための磁気系列指紋を用いた歩行 度推定.
+\newblock 2016.
 
 \bibitem{zyugyou}
 飯田仁, 吉永哲哉.
@@ -90,8 +82,8 @@ AMANO.
 
 \bibitem{hukyu}
 総務省.
-\newblock 平成29年版 情報通信白書
-  数字で見たスマホの爆発的普及（5年間の量的拡大).
+\newblock
+  平成29年版 情報通信白書 数字で見たスマホの爆発的普及（5年間の量的拡大).
 \newblock
   {\url{https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h29/html/nc111110.html}},
   2023年1月30日.
@@ -113,33 +105,43 @@ AMANO.
 \newblock Docoitter: 未来の在室情報を予報する在室管理システム.
 \newblock 情報処理学会論文誌, Vol.~54, No.~9, pp. 2265--2275, 2013.
 
-\bibitem{picture}
-中田豊久ほか.
-\newblock 画像による行き先掲示板システム.
-\newblock  ワークショップ 2009 (GN Workshop 2009) 論文集, 第2009巻, pp. 75--80,
-  2009.
+\bibitem{smartphone}
+嶋川司, 三木光範, 中原蒼太, 間博人.
+\newblock スマートフォンと ble ビーコンを用いた出席管理手法の提案.
+\newblock 同志社大学ハリス理化学研究報告= The Harris science review of Doshisha
+  University, Vol.~58, No.~2, pp. 88--95, 2017.
 
-\bibitem{iptelephone}
-櫻田武嗣, 萩原洋一ほか.
-\newblock Ip 電話端末を利用した在席表示システムの構築と運用.
-\newblock 情報処理学会論文誌コンシューマ・デバイス \& システム (CDS), Vol.~2,
-  No.~2, pp. 1--9, 2012.
+\bibitem{nfcandroid}
+市村匠, 鎌田真.
+\newblock Nfc (near field communication) を用いた android
+  スマートフォンによる授業出席管理システムの開発.
+\newblock
+  日本知能情報ファジィ学会 ファジィ システム シンポジウム 講演論文集 第 28
+  回ファジィシステムシンポジウム, pp. 1167--1170. 日本知能情報ファジィ学会,
+  2012.
 
-\bibitem{staycomment}
-田中優斗, 福島拓, 吉野孝ほか.
-\newblock 在室管理システムにおけるコメント提示機能の効果.
-\newblock 第 76 回全国大会講演論文集, Vol. 2014, No.~1, pp. 259--260, 2014.
+\bibitem{android}
+Shota Noguchi, Michitoshi Niibori, Erjing Zhou, and Masaru Kamada.
+\newblock Student attendance management system with bluetooth low energy beacon
+  and android devices.
+\newblock In {\em 2015 18th International Conference on Network-Based
+  Information Systems}, pp. 710--713. IEEE, 2015.
 
-\bibitem{kasika}
-進藤綺乃, 吉野孝ほか.
-\newblock 研究室における活動状況を可視化する在室管理システムの開発.
-\newblock 2018 年度 情報処理学会関西支部 支部大会 講演論文集, Vol. 2018, ,
-  2018.
+\bibitem{smartbase}
+Riya Lodha, Suruchi Gupta, Harshil Jain, and Harish Narula.
+\newblock Bluetooth smart based attendance management system.
+\newblock {\em Procedia Computer Science}, Vol.~45, pp. 524--527, 2015.
 
-\bibitem{zaiseki}
-zaiseki.
-\newblock Zaiseki 行動予定表をpc・スマホで確認.
-\newblock {\url{https://zaiseki.jp/}}, 2023年1月30日.
+\bibitem{garake}
+檀裕也ほか.
+\newblock 出席管理システム amuse の設計と開発.
+\newblock 松山大学論集, Vol.~21, No.~2, pp. 95--115, 2009.
+
+\bibitem{amano}
+AMANO.
+\newblock 勤怠管理システム ラインナップ.
+\newblock {\url{ https://www.tis.amano.co.jp/product/line-up/kintai/}},
+  2023年1月30日.
 
 \bibitem{hati}
 山中崇規, 吉野孝ほか.
