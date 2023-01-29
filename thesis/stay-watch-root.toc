@@ -14,9 +14,9 @@
 \contentsline {subsection}{\numberline {4.1.1}サーバ側システムの再設計と再構築}{13}{}%
 \contentsline {subsection}{\numberline {4.1.2}クライアントサイドの実装}{15}{}%
 \contentsline {section}{\numberline {4.2}利用者の管理とアクセス制御システムの整備}{16}{}%
-\contentsline {section}{\numberline {4.3}スマホアプリによるビーコンと実デバイス}{19}{}%
-\contentsline {subsection}{\numberline {4.3.1} BLEビーコンのアプリケーション化}{19}{}%
-\contentsline {subsection}{\numberline {4.3.2}スマホビーコンと実デバイスによるビーコンのハイブリッド活用}{22}{}%
+\contentsline {section}{\numberline {4.3}スマートフォンアプリによるビーコンと実デバイス}{20}{}%
+\contentsline {subsection}{\numberline {4.3.1} BLEビーコンのアプリケーション化}{20}{}%
+\contentsline {subsection}{\numberline {4.3.2}スマートフォンビーコンと実デバイスによるビーコンのハイブリッド活用}{21}{}%
 \contentsline {chapter}{\numberline {第5章}おわりに}{23}{}%
 \contentsline {section}{\numberline {5.1}まとめ}{23}{}%
 \contentsline {section}{\numberline {5.2}今後の課題}{23}{}%
